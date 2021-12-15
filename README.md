@@ -187,3 +187,5 @@ new Vue({
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
+<br/>
+[Forked From](https://github.com/Akryum/vue-observe-visibility#readme)
