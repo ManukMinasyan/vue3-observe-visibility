@@ -13,7 +13,7 @@
 # Installation
 
 ```
-npm install --save vue-observe-visibility
+npm install --save vue3-observe-visibility
 ```
 
 **⚠️ This plugin uses the [Intersection Observer API](http://caniuse.com/#feat=intersectionobserver) that is not supported in every browser (currently supported in Edge, Firefox and Chrome). You need to include a [polyfill](https://github.com/w3c/IntersectionObserver/tree/master/polyfill) to make it work on incompatible browsers.**
