@@ -21,19 +21,17 @@ npm install --save vue3-observe-visibility
 ## Import
 
 ```javascript
-import Vue from 'vue'
+import { createApp } from 'vue'
 import VueObserveVisibility from 'vue-observe-visibility'
 
-Vue.use(VueObserveVisibility)
+const app = createApp()
+app.use(VueObserveVisibility)
 ```
 
 Or:
 
 ```javascript
-import Vue from 'vue'
 import { ObserveVisibility } from 'vue-observe-visibility'
-
-Vue.directive('observe-visibility', ObserveVisibility)
 ```
 
 ## Browser
@@ -48,13 +46,13 @@ The plugin should be auto-installed. If not, you can install it manually with th
 Install all the directives:
 
 ```javascript
-Vue.use(VueObserveVisibility)
+app.use(VueObserveVisibility)
 ```
 
 Use specific directives:
 
 ```javascript
-Vue.directive('observe-visibility', VueObserveVisibility.ObserveVisibility)
+app.directive('observe-visibility', VueObserveVisibility.ObserveVisibility)
 ```
 
 # Usage
@@ -165,20 +163,16 @@ Passing a falsy value to the directive will disable the observer:
   <div ref="test" v-show="show" v-observe-visibility="visibilityChanged">Hello world!</div>
 </div>
 
-<script>
-new Vue({
-  el: '#app',
-  data: {
-    show: true,
-    isVisible: true,
-  },
-  methods: {
-    visibilityChanged (isVisible, entry) {
-      this.isVisible = isVisible
-      console.log(entry)
-    },
-  },
-})
+<script setup>
+import { ref } from 'vue'
+
+const show = ref(true);
+const isVisible = ref(true);
+
+visibilityChanged (isVisible, entry) {
+ isVisible.value = isVisible
+ console.log(entry)
+}
 </script>
 ```
 
