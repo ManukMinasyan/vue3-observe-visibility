@@ -22,7 +22,7 @@ npm install --save vue3-observe-visibility
 
 ```javascript
 import { createApp } from 'vue'
-import VueObserveVisibility from 'vue-observe-visibility'
+import VueObserveVisibility from 'vue3-observe-visibility'
 
 const app = createApp()
 app.use(VueObserveVisibility)
@@ -31,14 +31,14 @@ app.use(VueObserveVisibility)
 Or:
 
 ```javascript
-import { ObserveVisibility } from 'vue-observe-visibility'
+import { ObserveVisibility } from 'vue3-observe-visibility'
 ```
 
 ## Browser
 
 ```html
 <script src="vue.js"></script>
-<script src="https://unpkg.com/vue-observe-visibility/dist/vue-observe-visibility.min.js"></script>
+<script src="https://unpkg.com/vue3-observe-visibility/dist/vue-observe-visibility.min.js"></script>
 ```
 
 The plugin should be auto-installed. If not, you can install it manually with the instructions below.
