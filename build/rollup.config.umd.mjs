@@ -1,4 +1,4 @@
-import base from './rollup.config.base'
+import base from './rollup.config.base.mjs'
 
 const config = Object.assign({}, base, {
 	output: {

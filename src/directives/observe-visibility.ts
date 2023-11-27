@@ -1,3 +1,4 @@
+// @ts-ignore
 import { ObjectDirective, nextTick } from 'vue'
 import { deepEqual, processOptions, throttle } from '../utils'
 
@@ -106,7 +107,7 @@ const ObserveVisibility: ObjectDirective = {
   updated(el, { value, oldValue }) {
     if (deepEqual(value, oldValue)) return;
     const state = el._vue_visibilityState;
-  
+
     if (!value) {
       return
     }
@@ -116,7 +117,7 @@ const ObserveVisibility: ObjectDirective = {
   },
   unmounted(el) {
     const state = el._vue_visibilityState;
-  
+
     if (state) {
       state.destroyObserver();
       delete el._vue_visibilityState

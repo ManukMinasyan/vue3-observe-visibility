@@ -20,6 +20,7 @@ export function throttle(callback, delay, options = {}) {
   const throttled = (state, ...args) => {
     currentArgs = args
     if (timeout && state === lastState) return
+		// @ts-ignore
     let leading = options.leading
 
     if (typeof leading === 'function') {
