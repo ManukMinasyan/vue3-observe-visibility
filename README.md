@@ -31,7 +31,7 @@ app.use(VueObserveVisibility)
 Or:
 
 ```javascript
-import { ObserveVisibility } from 'vue3-observe-visibility'
+import { ObserveVisibility as vObserveVisibility } from 'vue3-observe-visibility'
 ```
 
 ## Browser
