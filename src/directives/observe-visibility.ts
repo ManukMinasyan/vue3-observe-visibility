@@ -80,7 +80,6 @@ class VisibilityState {
 
         // Wait for the element to be in document
         nextTick(() => {
-            console.log(0)
             if (this.observer) {
                 this.observer.observe(this.el);
             }
