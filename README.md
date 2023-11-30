@@ -3,6 +3,10 @@
 </p>
 
 <h1 align="center">vue3-observe-visibility</h1>
+	
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![License][license-src]][license-href]
 
 ## Table of contents
 
@@ -183,3 +187,15 @@ visibilityChanged (isVisible, entry) {
 [MIT](http://opensource.org/licenses/MIT)
 <br/>
 [Forked From](https://github.com/Akryum/vue-observe-visibility#readme)
+
+
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/vue3-observe-visibility/latest.svg?style=flat&colorA=18181B&colorB=64B692
+[npm-version-href]: https://npmjs.com/package/vue3-observe-visibility
+
+[npm-downloads-src]: https://img.shields.io/npm/dm/vue3-observe-visibility.svg?style=flat&colorA=18181B&colorB=64B692
+[npm-downloads-href]: https://npmjs.com/package/vue3-observe-visibility
+
+[license-src]: https://img.shields.io/github/license/ManukMinasyan/vue3-observe-visibility.svg?style=flat&colorA=18181B&colorB=64B692
+[license-href]: https://github.com/ManukMinasyan/vue3-observe-visibility/blob/main/LICENSE
