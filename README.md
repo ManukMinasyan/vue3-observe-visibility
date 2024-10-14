@@ -8,6 +8,13 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
+<h2 align="center"> Sponsors</h2>
+<p align="center">
+<a href="https://getcopy.ai">
+<img src="https://www.getcopy.ai/logo-light.svg" width="240"/>
+</a>
+</p>
+
 ## Table of contents
 
 - [Installation](#installation)
