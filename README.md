@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">vue3-observe-visibility</h1>
-	
+
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
@@ -13,6 +13,9 @@
 <a href="https://custom-fields.relaticle.com/introduction">
 <img src="https://mintlify.s3.us-west-1.amazonaws.com/relaticle/logo/light.svg" width="240"/>
 </a>
+</p>
+<p align="center">
+Start creating limitless FilamentPHP Custom Fields in under 5 minutes
 </p>
 
 ## Table of contents
