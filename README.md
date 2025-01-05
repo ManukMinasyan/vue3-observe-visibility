@@ -10,8 +10,8 @@
 
 <h2 align="center"> Sponsors</h2>
 <p align="center">
-<a href="https://getcopy.ai">
-<img src="https://www.getcopy.ai/logo-light.svg" width="240"/>
+<a href="https://custom-fields.relaticle.com/introduction">
+<img src="https://mintlify.s3.us-west-1.amazonaws.com/relaticle/logo/light.svg" width="240"/>
 </a>
 </p>
 
