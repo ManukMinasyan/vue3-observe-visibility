@@ -14,23 +14,20 @@
 <img src="https://relaticle.com/images/relaticle-logo-white.png" width="240"/>
 </a>
 </p>
-<p align="center">
-Start creating limitless FilamentPHP Custom Fields in under 5 minutes
-</p>
 
 ## Table of contents
 
 - [Installation](#installation)
-  - [Import](#import)
-  - [Browser](#browser)
+	- [Import](#import)
+	- [Browser](#browser)
 - [Usage](#usage)
-  - [IntersectionObserver options](#intersectionobserver-options)
-  - [Once](#once)
-  - [Throttling visibility](#throttling-visibility)
-  - [Passing custom arguments](#passing-custom-arguments)
-  - [Disabling the observer](#disabling-the-observer)
+	- [IntersectionObserver options](#intersectionobserver-options)
+	- [Once](#once)
+	- [Throttling visibility](#throttling-visibility)
+	- [Passing custom arguments](#passing-custom-arguments)
+	- [Disabling the observer](#disabling-the-observer)
 - [Example](#example)
-  - [License](#license)
+	- [License](#license)
 
 # Installation
 
