@@ -101,6 +101,9 @@ class VisibilityState {
 }
 
 const ObserveVisibility: ObjectDirective = {
+    getSSRProps() {
+        return {}
+    },
     beforeMount(el, {value}) {
         if (!value) return;
         if (typeof IntersectionObserver === "undefined") {
