@@ -1,7 +1,7 @@
 {
 	"name": "vue3-observe-visibility",
 	"description": "Detect when an element is becoming visible or hidden on the page. ",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"author": {
 		"name": "Manuk Minasyan",
 		"email": "manuk.minasyan1@gmail.com"
@@ -24,6 +24,7 @@
 		"build:browser": "rollup --config build/rollup.config.browser.mjs",
 		"build:es": "rollup --config build/rollup.config.es.mjs",
 		"build:umd": "rollup --config build/rollup.config.umd.mjs",
+		"test": "vitest run",
 		"prepublishOnly": "npm run build",
 		"serve": "serve --open ./dist",
 		"update:packages": "node wipe-dependencies.js &&rm -rf node_modules && npm update --save-dev&& npm update --save"
