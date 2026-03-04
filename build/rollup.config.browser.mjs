@@ -7,6 +7,7 @@ const config = Object.assign({}, base, {
 		name: 'VueObserveVisibility',
 		file: 'dist/vue-observe-visibility.min.js',
 		format: 'iife',
+		globals: { vue: 'Vue' },
 	},
 })
 

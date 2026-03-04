@@ -4,10 +4,11 @@ import cjs from '@rollup/plugin-commonjs'
 import replace from '@rollup/plugin-replace'
 import typescript from 'rollup-plugin-typescript2';
 import terser from '@rollup/plugin-terser';
-import config from '../package.json' assert { type: "json" };
+import config from '../package.json' with { type: "json" };
 
 export default {
 	input: 'src/index.ts',
+	external: ['vue'],
 	plugins: [
 		resolve({
 			mainFields: ['module', 'main'],
