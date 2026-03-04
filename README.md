@@ -11,7 +11,7 @@
 <h2 align="center"> Sponsors</h2>
 <p align="center">
 <a href="https://github.com/Relaticle/relaticle">
-<img src="https://relaticle.com/images/relaticle-logo-white.png" width="240"/>
+<img src="https://relaticle.com/brand/logo-white.png" width="240"/>
 </a>
 </p>
 
