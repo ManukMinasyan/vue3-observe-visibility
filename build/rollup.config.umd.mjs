@@ -6,6 +6,7 @@ const config = Object.assign({}, base, {
 		name: 'vue-observe-visibility',
 		file: 'dist/vue-observe-visibility.umd.js',
 		format: 'umd',
+		globals: { vue: 'Vue' },
 	},
 })
 
