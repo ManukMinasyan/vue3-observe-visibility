@@ -1,8 +1,5 @@
-import Vue, { PluginFunction } from "vue"
-import { DirectiveOptions } from 'vue/types/options'
+import type { Directive, Plugin } from 'vue';
 
-export const ObserveVisibility: DirectiveOptions
-
-export default class VueObserveVisibilityPlugin {
-	static install: PluginFunction<never>
-}
+export declare const ObserveVisibility: Directive;
+declare const plugin: Plugin;
+export default plugin;
